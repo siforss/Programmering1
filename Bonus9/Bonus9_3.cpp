@@ -1,10 +1,11 @@
 #include <iostream>
-using namespace std ;
+
+using namespace std;
  
 int main() {
     int central_digit, spaces;
  
-    for(int i = 1; i <= 9; i++) {
+    for(int i = 1; i <= 18; i++) {
         
 		if (i <= 9) central_digit = i;
         

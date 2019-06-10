@@ -4,7 +4,7 @@ using namespace std;
 
 int main() {
 	
-	int MC, shelter, test1, test2, test3, test4, test5, test6, test7, test8;
+	string MC, shelter, test1, test2, test3, test4, test5, test6, test7, test8;
 	
 	cout << "1. What's the main character's name?" << endl;
 	cin >> MC;
@@ -27,8 +27,8 @@ int main() {
 	cout << "10. "<< endl;
 	cin >> test8;
 	
-	cout << "The man felt like he had been wandering in the snowstorm for ages until he heard a call after his name " << MC << " from far far away" << MC << "." << endl;
-	cout << "He went towards the call's direction but nothing really mattered, he didn't get any closer. Instead he took a wise decision to shelter from the storm in " << bo << "." << endl;
+	cout << "The person felt like he had been wandering in the snowstorm for ages until he heard a call after his name '" << MC << "' echoing from far far away" << MC << "." << endl;
+	cout << "He went towards the call's direction but nothing really mattered, he didn't get any closer. Instead he took a wise decision to shelter from the storm in " << shelter << "." << endl;
 	
 	return 0;
 }
